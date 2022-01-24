@@ -1,0 +1,26 @@
+.fx-top-anchorpane-screen-css {
+	-fx-background-color: #ffffff;
+	/* -fx-pref-width: 1518px;
+	-fx-pref-height: 823px;  */
+	/* -fx-background-image:
+		url('file:///E:/IntelliPlanner%20Workspaces/working_chetu/SeniorLineNew/src/main/java/com/seniorline/view/ui_new/bg-1.png'); */
+	-fx-background-size: 100% 100%;
+}
+
+.fx-button {
+	-fx-background-color: #ffffff;
+	-fx-font-size: 14px;
+	-fx-font-family: sans-serif;
+	-fx-background-color: #ffffff;
+	-fx-stroke: white;
+	-fx-stroke-width: 1;
+	-fx-pref-width: 200;
+	-fx-pref-height: 80;
+}
+.fx-button:hover {
+	-fx-background-color: #E0E0E0;
+	-fx-background-insets: -0.1, 2.0;
+}
+/* .fx-image-view {
+	border-radius: 50%;
+} */

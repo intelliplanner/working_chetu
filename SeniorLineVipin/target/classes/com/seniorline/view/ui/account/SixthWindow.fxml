@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button alignment="BASELINE_LEFT" cacheShape="false" graphicTextGap="1.0" layoutX="302.0" layoutY="470.0" mnemonicParsing="false" prefHeight="93.0" prefWidth="578.0" text="WELCOME TO SENIOR LINE SUSAN" textAlignment="JUSTIFY" wrapText="true" AnchorPane.leftAnchor="250.0">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <effect>
+            <DropShadow height="32.86" radius="11.4825" width="15.07" />
+         </effect>
+      </Button>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="735.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/cks.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="369.0" layoutY="26.0" prefHeight="406.0" prefWidth="350.0">
+         <children>
+            <ImageView fitHeight="406.0" fitWidth="380.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../images/mini.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

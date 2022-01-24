@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="823.0" prefWidth="1518.0" styleClass="fx-top-anchorpane-screen-css" stylesheets="@../../../../css/styleNew.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.seniorline.view.controller.AddContactWindowController">
+   <children>
+      <JFXButton fx:id="addContact" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" layoutX="28.0" layoutY="128.0" prefHeight="80.0" prefWidth="186.0" styleClass="fx-button" text="Add A Contact" />
+      <JFXButton fx:id="callAContact" contentDisplay="CENTER" focusTraversable="false" layoutX="28.0" layoutY="256.0" styleClass="fx-button" text="Call A Contact" />
+      <JFXButton fx:id="activities" contentDisplay="CENTER" focusTraversable="false" layoutX="28.0" layoutY="344.0" styleClass="fx-button" text="Activities" />
+      <JFXButton fx:id="scheduleAppointment" contentDisplay="CENTER" focusTraversable="false" layoutX="28.0" layoutY="432" styleClass="fx-button" text="Schedule Appointment" />
+      <JFXButton fx:id="healthStatus" contentDisplay="CENTER" focusTraversable="false" layoutX="28.0" layoutY="520.0" styleClass="fx-button" text="Health Status Update" />
+      <JFXButton fx:id="profile" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" layoutX="1285.0" layoutY="216.0" prefHeight="80.0" prefWidth="186.0" styleClass="fx-button" text="Profile" />
+      <JFXButton fx:id="calendar" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" layoutX="1285.0" layoutY="318.0" prefHeight="80.0" prefWidth="186.0" styleClass="fx-button" text="Calendar" />
+      <JFXButton fx:id="document" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" layoutX="1285.0" layoutY="412.0" prefHeight="80.0" prefWidth="186.0" styleClass="fx-button" text="Document" />
+      <ImageView fitHeight="80.0" fitWidth="221.0" layoutX="18.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/TitleAddToContact.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="194.0" fitWidth="250.0" layoutX="1253.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/profileBackground.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="1309.0" layoutY="151.0" prefHeight="35.0" prefWidth="133.0" text="VIRENDRA">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Circle fx:id="circleImage" fill="#f7f9fa00" layoutX="1376.0" layoutY="86.0" radius="47.0" stroke="#00000011" strokeType="INSIDE" />
+      <Circle fill="#1f93ff00" layoutX="1376.0" layoutY="86.0" radius="58.0" stroke="#faff00" strokeType="INSIDE" strokeWidth="4.0" />
+   </children>
+</AnchorPane>

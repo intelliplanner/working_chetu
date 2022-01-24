@@ -1,0 +1,96 @@
+.mainform {
+	
+}
+
+.root {
+	-fx-font-size: 14px;
+	-fx-font-family: sans-serif;
+	-fx-background-color: #DDDDDD;
+}
+/*---------------Main Window----------------------- */
+.fx-main-window-screen-css {
+	-fx-pref-width: 1050px;
+	-fx-pref-height: 750px;
+	-fx-background-color: #ffffff;
+}
+
+.fx-main-window-screen-css-borderpane {
+	-fx-pref-width: 1650px;
+	-fx-pref-height: 750px;
+	-fx-background-color: #ffffff;
+}
+/*---------------End Main Window----------------------- */
+
+
+
+/*---------------All inner Screen Size----------------------- */
+.fx-top-anchorpane-screen-css {
+	-fx-pref-width: 1050px;
+	-fx-pref-height: 750px;
+	-fx-background-color: #ffffff;
+/* 	-fx-border-width: 2px 2px 2px 2px; */
+	-fx-border-color: #808080; 
+	-fx-border-width: 10px 10px 10px 10px;
+}
+/* .fx-top-hbox-css {
+	-fx-pref-width: 1750px;
+	-fx-pref-height: 750px;
+	-fx-background-color: #ffffff;
+	-fx-border-width: 2px 2px 2px 2px;
+} */
+
+/*---------------End Inner Screen Size----------------------- */
+
+/*---------------All Window----------------------- */
+
+.fx-screen-txt-msg-css {
+	-fx-font-size: 14px;
+	-fx-font-family: sans-serif;
+}
+
+/*---------------End All Window----------------------- */
+.fx-button {
+	-fx-background-color: #c0c0c0;
+	-fx-stroke: white;
+	-fx-stroke-width: 1;
+	-fx-border-radius:20;
+	-fx-border-color:#ffbf00;
+	-fx-border-width:3px;
+	-fx-padding: 0 0 0 0;
+	-fx-pref-width: 90;
+	-fx-pref-height: 80;
+}
+.fx-button:focused {
+	-fx-background-color: #ffbf00;
+	-fx-background-insets: -0.1, 2.0;
+	
+}
+
+.fx-button:hover {
+	-fx-background-color: #ffbf00;
+	-fx-background-insets: -0.1, 2.0;
+	
+}
+
+.fx-button-new {
+	-fx-background-color: #c0c0c0;
+	-fx-stroke: white;
+	-fx-stroke-width: 1;
+	-fx-border-radius:15;
+	-fx-border-color:#ffbf00;
+	-fx-border-width:3px;
+	-fx-padding: 0 0 0 0;
+	-fx-pref-width: 130;
+	-fx-pref-height: 80;
+}
+
+
+.fx-button-new:focused {
+	-fx-background-color: #ffbf00;
+	-fx-background-insets: -0.1, 2.0;
+}
+
+.fx-button-new:hover {
+	-fx-background-color: #ffbf00;
+	-fx-background-insets: -0.1, 2.0;
+}

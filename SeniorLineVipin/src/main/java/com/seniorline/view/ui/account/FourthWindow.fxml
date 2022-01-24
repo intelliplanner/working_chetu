@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="TARE_ROOT_ANCHORPANE" prefHeight="669.0" prefWidth="969.0" styleClass="fx-top-anchorpane-screen-css" stylesheets="@../../../../../../resources/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.seniorline.view.controller.FourthWindowController">
+   <children>
+      <ImageView fitHeight="454.0" fitWidth="390.0" layoutX="85.0" layoutY="139.0" onMouseClicked="#onMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mini.png" />
+         </image>
+      </ImageView>
+      <VBox fx:id="VBOX_LIST" layoutX="536.0" layoutY="56.0" style="-fx-border-color: #ffffff;">
+         <children>
+            <ListView fx:id="listView" focusTraversable="false" prefHeight="592.0" prefWidth="342.0" style="-fx-border-color: #ffffff;">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="50.0" />
+               </padding></ListView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

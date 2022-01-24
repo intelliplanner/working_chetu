@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="TARE_ROOT_ANCHORPANE" prefHeight="712.0" prefWidth="1097.0" styleClass="fx-top-anchorpane-screen-css" stylesheets="@../../../../../../resources/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.seniorline.view.controller.SecondWindowController">
+   <children>
+      <ImageView fitHeight="323.0" fitWidth="308.0" layoutX="127.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mini.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="116.0" layoutY="375.0" prefHeight="32.0" prefWidth="329.0" styleClass="fx-screen-txt-msg-css" text="Consumer Setting*: You are accessing Senior Line">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="405.0" prefHeight="32.0" prefWidth="301.0" styleClass="fx-screen-txt-msg-css" text="From your home.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="445.0" prefHeight="32.0" prefWidth="329.0" styleClass="fx-screen-txt-msg-css" text="Enterprise Setting*:You are accessing Senior Line ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="477.0" prefHeight="32.0" prefWidth="301.0" styleClass="fx-screen-txt-msg-css" text="From a residential care home.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="PHOTO_CHOOSER" fitHeight="180.0" fitWidth="151.0" layoutX="567.0" layoutY="48.0" onMouseClicked="#onMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/contact.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="567.0" layoutY="198.0" onMouseClicked="#onKeyPressed" prefHeight="68.0" prefWidth="322.0" text="Choose your profile picture">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="567.0" layoutY="387.0" onMouseClicked="#onKeyPressed" prefHeight="68.0" prefWidth="322.0" text="Choose your language">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="567.0" layoutY="581.0" onMouseClicked="#onKeyPressed" prefHeight="68.0" prefWidth="322.0" text="Select your setting">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="ENGLISH_LANG" layoutX="567.0" layoutY="298.0" onMouseClicked="#onMouseClicked" prefHeight="77.0" prefWidth="113.0" styleClass="fx-button" text="ENGLISH" />
+      <JFXButton fx:id="FRENCH_LANG" layoutX="689.0" layoutY="298.0" onMouseClicked="#onMouseClicked" prefHeight="77.0" prefWidth="113.0" styleClass="fx-button" text="FRENCH" />
+      <JFXButton fx:id="DEUTSCH_LANG" layoutX="814.0" layoutY="298.0" onMouseClicked="#onMouseClicked" prefHeight="77.0" prefWidth="113.0" styleClass="fx-button" text="DEUTSCH" />
+      <JFXButton fx:id="CONSUMER_SETTING" layoutX="567.0" layoutY="493.0" onMouseClicked="#onMouseClicked" prefHeight="102.0" prefWidth="140.0" styleClass="fx-button-new" text="Consumer Setting" />
+      <JFXButton fx:id="ENTERPRISE_SETTING" layoutX="752.0" layoutY="493.0" onMouseClicked="#onMouseClicked" prefHeight="102.0" prefWidth="156.0" styleClass="fx-button-new" text="Enterprise Setting" />
+      <Text fx:id="PROFILE_NAME" disable="true" layoutX="781.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="James Bond" wrappingWidth="156.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

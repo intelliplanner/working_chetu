@@ -1,0 +1,133 @@
+.mainform {
+	
+}
+
+.root {
+	-fx-font-size: 14px;
+	-fx-font-family: sans-serif;
+	-fx-background-color: #ffffff;
+}
+/*---------------Main Window----------------------- */
+.fx-main-window-screen-css {
+	-fx-pref-width: 1050px;
+	-fx-pref-height: 750px;
+	-fx-background-color: #ffffff;
+}
+
+.fx-main-window-screen-css-borderpane {
+	-fx-pref-width: 1650px;
+	-fx-pref-height: 750px;
+	-fx-background-color: #ffffff;
+	/* -fx-padding: 100 250 100 100; */
+}
+/*---------------End Main Window----------------------- */
+
+/*---------------All inner Screen Size----------------------- */
+.fx-top-vbox-screen-css {
+	-fx-pref-width: 1650px;
+	-fx-pref-height: 750px;
+	-fx-background-color: #ffffff;
+	-fx-padding: 0 100 0 100;
+}
+
+.fx-top-hbox-screen-css {
+	-fx-pref-width: 1650px;
+	-fx-pref-height: 750px;
+	-fx-background-color: #ffffff;
+}
+
+.fx-top-anchorpane-screen-css {
+	-fx-pref-width: 1050px;
+	-fx-pref-height: 750px;
+	-fx-background-color: #ffffff;
+	/* 	-fx-border-width: 2px 2px 2px 2px; */
+	-fx-border-color: #005A9C;
+	-fx-border-width: 10px 10px 10px 10px;
+}
+
+/*---------------End Inner Screen Size----------------------- */
+
+/*---------------All Window----------------------- */
+.fx-screen-txt-msg-css {
+	-fx-font-size: 14px;
+	-fx-font-family: sans-serif;
+}
+
+/*---------------End All Window----------------------- */
+.fx-button {
+	-fx-background-color: #191970;
+	-fx-text-fill: #ffffff;
+	-fx-stroke: white;
+	-fx-stroke-width: 1;
+	-fx-border-radius: 15;
+	-fx-padding: 0 0 0 0;
+	-fx-pref-width: 113;
+	-fx-pref-height: 77;
+}
+
+.fx-button:focused {
+	-fx-background-color: #ffbf00;
+	-fx-background-insets: -0.1, 2.0;
+}
+
+.fx-button:hover {
+	-fx-background-color: #ffbf00;
+	-fx-background-insets: -0.1, 2.0;
+}
+
+.fx-button-new {
+	-fx-background-color: #191970;
+	-fx-text-fill: #ffffff;
+	-fx-stroke: white;
+	-fx-stroke-width: 1;
+	-fx-border-radius: 15;
+	-fx-padding: 0 0 0 0;
+	-fx-pref-width: 175;
+	-fx-pref-height: 77;
+}
+
+.fx-button-new:focused {
+	-fx-background-color: #ffbf00;
+	-fx-background-insets: -0.1, 2.0;
+}
+
+.fx-button-new:hover {
+	-fx-background-color: #ffbf00;
+	-fx-background-insets: -0.1, 2.0;
+}
+
+.fx-button-favourite {
+	-fx-background-color: #d6d6c2;
+	-fx-text-fill: #ffffff;
+	-fx-stroke: white;
+	-fx-stroke-width: 1;
+	-fx-border-radius: 15;
+	-fx-padding: 0 0 0 0;
+	-fx-pref-width: 70;
+	-fx-pref-height: 20;
+}
+
+.fx-button-favourite:focused {
+	-fx-background-color: #ffbf00;
+	-fx-background-insets: -0.1, 2.0;
+}
+
+.fx-button-favourite:hover {
+	-fx-background-color: #ffbf00;
+	-fx-background-insets: -0.1, 2.0;
+}
+/* button-raised */
+.fx-button-test-favourite {
+	display: block;
+	height: 30px;
+	border-bottom: 1px solid #ff0000;
+	position: relative;
+	text-align: center;
+	margin-bottom: -20px;
+	position: relative;
+}
+
+input {
+	position: absolute;
+	bottom: -13px;
+}

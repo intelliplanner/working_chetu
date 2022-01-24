@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ROOT_ANCHORPANE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1050.0" style="-fx-background-color: #FFFFF;" styleClass="fx-top-anchorpane-screen-css" stylesheets="@../../../../../../resources/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.seniorline.view.controller.FifthWindowController">
+   <children>
+      <ImageView fitHeight="406.0" fitWidth="414.0" layoutX="76.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mini.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="489.0" layoutY="35.0" prefHeight="69.0" prefWidth="357.0" text="Add To Favourite" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <VBox fx:id="VBOX_LIST" layoutX="499.0" layoutY="104.0" prefHeight="571.0" prefWidth="357.0">
+         <children>
+            <ListView fx:id="listView" focusTraversable="false" prefHeight="577.0" prefWidth="357.0" style="-fx-border-color: #ffffff;" />
+         </children></VBox>
+   </children>
+</AnchorPane>

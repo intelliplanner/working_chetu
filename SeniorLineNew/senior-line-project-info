@@ -1,0 +1,5 @@
+
+Note-  Error: JavaFX runtime components are missing, and are required to run this application
+
+solution below:
+--module-path "E:\IntelliPlanner Workspaces\working_chetu\SeniorLineNew\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.fxml

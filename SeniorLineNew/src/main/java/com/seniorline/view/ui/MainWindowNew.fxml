@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="fx-top-vbox-screen-css" stylesheets="@../../../../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.seniorline.view.controller.MainController">
+   <children>
+      <BorderPane fx:id="mainForm" styleClass="fx-main-window-screen-css-borderpane">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </BorderPane>
+   </children>
+</VBox>

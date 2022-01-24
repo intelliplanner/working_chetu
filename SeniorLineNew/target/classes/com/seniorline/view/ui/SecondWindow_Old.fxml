@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="TARE_ROOT_ANCHORPANE" prefHeight="712.0" prefWidth="1097.0" style="-fx-background-color: #ffffff;" stylesheets="" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.seniorline.view.controller.SecondWindowController">
+   <children>
+      <ImageView fitHeight="323.0" fitWidth="308.0" layoutX="55.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/mini.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="47.0" layoutY="366.0" prefHeight="32.0" prefWidth="301.0" text="Consumer Setting*: You are accessing Senior Line">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="398.0" prefHeight="32.0" prefWidth="301.0" text="From your home.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="445.0" prefHeight="32.0" prefWidth="301.0" text="Enterprise Setting*:You are accessing Senior Line ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="477.0" prefHeight="32.0" prefWidth="301.0" text="From a residential care home.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="PHOTO_CHOOSER" fitHeight="163.0" fitWidth="172.0" layoutX="582.0" layoutY="35.0" onMouseClicked="#onMouseClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/SelectPhoto.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="583.0" layoutY="197.0" onMouseClicked="#onKeyPressed" prefHeight="68.0" prefWidth="322.0" text="Choose your profile picture">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="ENGLISH_LANG" layoutX="582.0" layoutY="307.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="95.0" text="English" />
+      <Button fx:id="FRENCH_LANG" layoutX="696.0" layoutY="307.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="95.0" text="French" />
+      <Button fx:id="DEUTSCH_LANG" layoutX="808.0" layoutY="307.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="95.0" text="Deutsch" />
+      <Label layoutX="583.0" layoutY="377.0" onMouseClicked="#onKeyPressed" prefHeight="68.0" prefWidth="322.0" text="Choose your language">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="CONSUMER_SETTING" layoutX="582.0" layoutY="509.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="147.0" text="Consumer Setting" />
+      <Button fx:id="ENTERPRISE_SETTING" layoutX="744.0" layoutY="509.0" mnemonicParsing="false" onMouseClicked="#onMouseClicked" prefHeight="77.0" prefWidth="141.0" text="Enterprise Setting" />
+      <Label layoutX="583.0" layoutY="599.0" onMouseClicked="#onKeyPressed" prefHeight="68.0" prefWidth="322.0" text="Select your setting">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
